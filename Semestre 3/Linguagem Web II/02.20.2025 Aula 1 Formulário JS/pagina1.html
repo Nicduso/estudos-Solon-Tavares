@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 1</title>
+
+    <script>
+
+        document.write("<h1>Olá Mundo!</h1>");
+
+        function show() {
+            document.write("<p>Você clicou no botão!</p>");
+        }
+
+        function message() {
+            var text = document.getElementById("text");
+            text.innerHTML = "Olá Mundo outra vez!";
+        }
+
+        function alarm() {
+            alert("Olá mundo novamente!");
+        }
+
+    </script>
+</head>
+
+<body>
+    <button onclick="show()" style="background-color: blue; color: white; height: 30px; width: 150px; font-weight: bold;">Aperte aqui!</button>
+    <button onclick="message()" style="background-color: green; color: white; height: 30px; width: 150px; font-weight: bold;">Aperte aqui!</button>
+    <button onclick="alarm()" style="background-color: red; color: white; height: 30px; width: 150px; font-weight: bold;">Alerta!</button>
+    <h2 id="text"></h2>
+</body>
+</html>

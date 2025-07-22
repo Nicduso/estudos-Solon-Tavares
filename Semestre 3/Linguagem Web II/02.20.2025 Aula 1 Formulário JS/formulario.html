@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <script type="text/javascript" src="funcoes.js"></script>
+</head>
+<body>
+    <form name="form">
+        <label>Valor 1:</label>
+        <input type="text" name="valueA">
+        <label>Valor 2:</label>
+        <input type="text" name="valueB"> <br><br>
+        <select name="opt">
+            <option value="0">Escolha</option>
+            <option value="1">Somar</option>
+            <option value="2">Subtrair</option>
+            <option value="3">Multiplicar</option>
+            <option value="4">Dividir</option>
+        </select> <br><br>
+        <label>Resposta:</label>
+        <input type="text" name="result">
+    </form>
+    <br>
+    <button onclick="sum()">Executar</button>
+    <p id="text">Vai aparecer o texto do select.</p>
+    <p id="value">Vai aparecer o texto do select.</p>
+</body> 
+</html>

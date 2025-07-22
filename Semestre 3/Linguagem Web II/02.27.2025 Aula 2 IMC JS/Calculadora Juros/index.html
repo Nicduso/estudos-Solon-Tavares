@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Juros</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Calculadora de Juros</h1>
+        <p id="info">Informe os dados solicitados para realizar o cálculo:</p>
+        <form>
+            <label>Nome:</label>
+            <input id="name" type="text">
+            <label>Valor do depósito:</label>
+            <input id="deposit" type="text">
+            <label>Taxa do juros (%):</label>
+            <input id="i" type="text">
+            <label>Tempo (meses):</label>
+            <input id="t" type="text">
+        </form>
+        <button onclick="sum()">Calcular</button>
+        <p id="resultFees"></p>
+        <h2 id="rFees"></h2>
+        <p id="resultTotal"></p>
+        <h2 id="rTotal"></h2>
+    </div>
+</body>
+</html>

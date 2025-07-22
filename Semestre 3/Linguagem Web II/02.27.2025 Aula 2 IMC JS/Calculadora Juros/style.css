@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #8a2be2;
+}
+
+#info {
+    font-weight: bold   ;
+}
+
+label {
+    display: inline-flex;
+    width: 200px;
+}
+
+#name, #deposit, #i, #t  {
+    width: 700px;
+    height: 30px;
+    margin: 8px 0 8px 0;
+}
+
+button {
+    margin: 10px 0 0 350px;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #8a2be2;
+    color: #ffffff;
+    font-weight: bold;
+}   
+
+button:hover {
+    background-color: #a248f7;
+    cursor: pointer;
+}
