@@ -1,0 +1,20 @@
+table {
+    text-align: center;
+    width: 50%;
+    border-top: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+th {
+    font-weight: 400;
+}
+
+td.aluno {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #f0f8ff;
+  }
