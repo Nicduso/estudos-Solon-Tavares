@@ -1,0 +1,4 @@
+Modelo: Civic
+Marca: Honda
+Ano: 2018
+Preço: 20000.00
