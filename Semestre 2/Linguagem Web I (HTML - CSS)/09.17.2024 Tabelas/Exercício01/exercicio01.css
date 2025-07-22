@@ -1,0 +1,27 @@
+table {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    width: 20%;
+}
+
+th {
+    background-color: #a8dad5;
+}
+
+td {
+    background-color: #f0f8ff;
+}
+
+td:hover {
+    background-color: #a8dad5;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+img {
+    height: 20px;
+}
