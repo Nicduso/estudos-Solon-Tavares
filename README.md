@@ -9,9 +9,88 @@
 Os arquivos estão organizados por **semestre**, depois por **disciplina**, e por fim por **data** e exercícios:
 
 ```
-/1º Semestre/
-└── Lógica de Programação/
-└── MM.DD.YYYY exercicio.alg
+Semestre 1
+├── Lógica de Programação
+
+Semestre 2
+├── Linguagem Web I (HTML - CSS)
+│   ├── 08.20.2024 Bases HTML
+│   ├── 08.27.2024 Estilos CSS
+│   ├── 09.03.2024 Tabelas
+│   ├── 09.10.2024 Classes e ID
+│   ├── 09.17.2024 Tabelas
+│   ├── 09.24.2024 Estilização Tabelas
+│   ├── 10.01.2024 Divs
+│   ├── 10.08.2024 Posicionamento
+│   ├── 10.22.2024 Imagens de Fundo
+│   └── 11.12.2024 Formulário
+├── Linguagem de Programação (C)
+│   ├── 09.05.2024 Vetores
+│   ├── 09.12.2024 Calculadora
+│   ├── 10.10.2024 Funções
+│   ├── 11.11.2024 Struct e Arquivos
+│   ├── 11.14.2024 Números Curiosos
+│   ├── 11.21.2024 Ponteiros
+│   ├── 11.28.2024 Bibliotecas
+│   └── 12.06.2024 Cadastro
+├── Orientação a Objetos I (Java)
+│   ├── 09.02.2024 Exemplo Objetos
+│   ├── 09.02.2024 Exercícios
+│   ├── 09.09.2024 Classes e Objetos
+│   ├── 09.16.2024 Estruturas Primitivas
+│   ├── 09.16.2024 Compilando Java
+│   ├── 09.16.2024 Encapsulamento
+│   ├── 09.30.2024 Encapsulamento
+│   ├── 10.21.2024 Construtores
+│   ├── 11.11.2024 Herança
+│   ├── 11.18.2024 Polimorfismo
+│   ├── 12.02.2024 Trabalho
+│   └── 16.09.2024 Variáveis
+
+Semestre 3
+├── Linguagem Web II (JavaScript / PHP)
+│   ├── 02.20.2025 Aula 1 Formulário JS
+│   ├── 02.27.2025 Aula 2 IMC JS
+│   ├── 03.06.2025 Aula 3 Calculadora JS
+│   ├── 03.20.2025 Aula 4 Troca Imagens JS
+│   ├── 03.27.2025 Aula 5 Formulário PHP
+│   ├── 04.03.2025 Atividades PHP
+│   ├── 04.24.2025 Sessions PHP
+│   ├── 05.08.2025 Atividades PHP Sessions pt2
+│   ├── 05.15.2025 Revisão PHP Sessions
+│   ├── 05.29.2025 Revisão da prova
+│   ├── 06.05.2025 Banco de Dados em PHP
+│   └── 06.12.2025 Banco de Dados em PHP II
+├── Orientação a Objetos II (Java)
+│   ├── 02.18.2025 Revisão
+│   ├── 02.25.2025 Arrays
+│   ├── 02.25.2025 ListaMedica
+│   ├── 03.07.2025 ListaLigada
+│   ├── 03.11.2025 ArrayList
+│   ├── 03.25.2025 Swing
+│   ├── 03.31.2025 Interface Gráfica
+│   ├── 04.01.2025 Calculadora Swing
+│   ├── 04.14.2025 NetBeans
+│   ├── 04.28.2025 JList
+│   ├── 04.29.2025 Calculadora IMC
+│   ├── 05.06.2025 Atividade JList
+│   ├── 05.23.2025 Prova
+│   ├── 06.03.2025 Banco de Dados
+│   ├── 06.10.2025 Banco de Dados II
+│   ├── 06.24.2025 Alterar e Excluir BD
+│   ├── 06.26.2025 IMC CRUD
+│   └── Orientação à Objetos - Extras
+├── Projeto de Banco de Dados (SQL)
+│   ├── 02.21.2025 Mapas Mentais
+│   ├── 02.26.2025 Diagramas E.R
+│   ├── 03.26.2025 Entidade Associativa
+│   ├── 03.31.2025 Primeira Entrega Parcial
+│   ├── 04.28.2025 Modelo Lógico
+│   ├── 05.12.2025 Segunda Entrega Parcial
+│   ├── 06.25.2025 SQL e Engenharia Reversa
+│   ├── 06.27.2025 SQL Exercícios
+│   └── 07.09.2025 Insert e Select SQL (trabalho final)
+
 ```
 
 ## ▶️ Como visualizar e executar os exercícios
@@ -93,9 +172,88 @@ Os arquivos estão organizados por **semestre**, depois por **disciplina**, e po
 The files are organized by **semester**, then by **subject**, and finally by **date** and exercise title:
 
 ```
-/1º Semestre/
-└── Lógica de Programação/
-└── MM.DD.YYYY exercicio.alg
+Semestre 1
+├── Lógica de Programação
+
+Semestre 2
+├── Linguagem Web I (HTML - CSS)
+│   ├── 08.20.2024 Bases HTML
+│   ├── 08.27.2024 Estilos CSS
+│   ├── 09.03.2024 Tabelas
+│   ├── 09.10.2024 Classes e ID
+│   ├── 09.17.2024 Tabelas
+│   ├── 09.24.2024 Estilização Tabelas
+│   ├── 10.01.2024 Divs
+│   ├── 10.08.2024 Posicionamento
+│   ├── 10.22.2024 Imagens de Fundo
+│   └── 11.12.2024 Formulário
+├── Linguagem de Programação (C)
+│   ├── 09.05.2024 Vetores
+│   ├── 09.12.2024 Calculadora
+│   ├── 10.10.2024 Funções
+│   ├── 11.11.2024 Struct e Arquivos
+│   ├── 11.14.2024 Números Curiosos
+│   ├── 11.21.2024 Ponteiros
+│   ├── 11.28.2024 Bibliotecas
+│   └── 12.06.2024 Cadastro
+├── Orientação a Objetos I (Java)
+│   ├── 09.02.2024 Exemplo Objetos
+│   ├── 09.02.2024 Exercícios
+│   ├── 09.09.2024 Classes e Objetos
+│   ├── 09.16.2024 Estruturas Primitivas
+│   ├── 09.16.2024 Compilando Java
+│   ├── 09.16.2024 Encapsulamento
+│   ├── 09.30.2024 Encapsulamento
+│   ├── 10.21.2024 Construtores
+│   ├── 11.11.2024 Herança
+│   ├── 11.18.2024 Polimorfismo
+│   ├── 12.02.2024 Trabalho
+│   └── 16.09.2024 Variáveis
+
+Semestre 3
+├── Linguagem Web II (JavaScript / PHP)
+│   ├── 02.20.2025 Aula 1 Formulário JS
+│   ├── 02.27.2025 Aula 2 IMC JS
+│   ├── 03.06.2025 Aula 3 Calculadora JS
+│   ├── 03.20.2025 Aula 4 Troca Imagens JS
+│   ├── 03.27.2025 Aula 5 Formulário PHP
+│   ├── 04.03.2025 Atividades PHP
+│   ├── 04.24.2025 Sessions PHP
+│   ├── 05.08.2025 Atividades PHP Sessions pt2
+│   ├── 05.15.2025 Revisão PHP Sessions
+│   ├── 05.29.2025 Revisão da prova
+│   ├── 06.05.2025 Banco de Dados em PHP
+│   └── 06.12.2025 Banco de Dados em PHP II
+├── Orientação a Objetos II (Java)
+│   ├── 02.18.2025 Revisão
+│   ├── 02.25.2025 Arrays
+│   ├── 02.25.2025 ListaMedica
+│   ├── 03.07.2025 ListaLigada
+│   ├── 03.11.2025 ArrayList
+│   ├── 03.25.2025 Swing
+│   ├── 03.31.2025 Interface Gráfica
+│   ├── 04.01.2025 Calculadora Swing
+│   ├── 04.14.2025 NetBeans
+│   ├── 04.28.2025 JList
+│   ├── 04.29.2025 Calculadora IMC
+│   ├── 05.06.2025 Atividade JList
+│   ├── 05.23.2025 Prova
+│   ├── 06.03.2025 Banco de Dados
+│   ├── 06.10.2025 Banco de Dados II
+│   ├── 06.24.2025 Alterar e Excluir BD
+│   ├── 06.26.2025 IMC CRUD
+│   └── Orientação à Objetos - Extras
+├── Projeto de Banco de Dados (SQL)
+│   ├── 02.21.2025 Mapas Mentais
+│   ├── 02.26.2025 Diagramas E.R
+│   ├── 03.26.2025 Entidade Associativa
+│   ├── 03.31.2025 Primeira Entrega Parcial
+│   ├── 04.28.2025 Modelo Lógico
+│   ├── 05.12.2025 Segunda Entrega Parcial
+│   ├── 06.25.2025 SQL e Engenharia Reversa
+│   ├── 06.27.2025 SQL Exercícios
+│   └── 07.09.2025 Insert e Select SQL (trabalho final)
+
 ```
 
 ## ▶️ How to View and Run the Exercises
