@@ -11,34 +11,30 @@ Os arquivos estão organizados por **semestre**, depois por **disciplina**, e po
 ```
 /1º Semestre/
 └── Lógica de Programação/
-└── 2024-03-15/
-└── exercicio1.c
-└── exercicio2.c
-
-/2º Semestre/
-└── Banco de Dados/
-└── 2025-06-10/
-└── consultas.sql
+└── MM.DD.YYYY exercicio.alg
 ```
 
 ## ▶️ Como visualizar e executar os exercícios
 
 ### 🔹 C / Lógica de Programação
-- Desenvolvidos com compiladores simples (ex: GCC).
-- Executar via terminal:
-  ```bash
-  gcc exercicio1.c -o exercicio1
-  ./exercicio1
+- Desenvolvidos com compiladores simples
+- [Dev C++](https://www.bloodshed.net/)
+- [Visualg](https://drive.google.com/uc?export=download&id=1ZpscmOjx5-htnCB4iUIF2aH9d2SE26eq)
 
 ### 🔹 Java (Orientação a Objetos)
 
 * Primeiros exercícios foram feitos sem IDE, apenas com linha de comando:
 
+  Navegue até a pasta e compile os arquivos com "javac".
+  Depois rodar o arquivo com a classe main acessando a pasta bin e acessando o pacote.arquivo.
+  Exemplo em linux:
+  
   ```bash
-  javac Exercicio.java
-  java Exercicio
+  javac -d bin *.java
+  cd bin
+  java bank.Banco
   ```
-* Outros podem exigir uma IDE como **Eclipse** ou **IntelliJ**.
+* Outros podem exigir uma IDE como **Eclipse** ou **NetBeans**.
 
 ### 🔹 HTML, CSS e JavaScript
 
@@ -85,73 +81,69 @@ Os arquivos estão organizados por **semestre**, depois por **disciplina**, e po
 
 ---
 
-# 💻 Technical Course Exercises – Informatics
 
-📚 This repository gathers exercises developed by **Nicole Soares** during the **Technical Course in Informatics** at **E.E.E.P. Dr. Solon Tavares**.
+# 💻 Exercises from the Technical Course in Computer Science
+
+📚 This repository gathers the exercises developed by me, **Nicole Soares**, during the **Technical Course in Computer Science** at **E.E.E.P. Dr. Solon Tavares**.
 
 ---
 
 ## 🗂️ Repository Structure
 
-Files are organized by **semester**, then by **subject**, and finally by **date** and exercises:
+The files are organized by **semester**, then by **subject**, and finally by **date** and exercise title:
 
 ```
-/1st Semester/
-   └── Programming Logic/
-         └── 2024-03-15/
-                └── exercise1.c
-                └── exercise2.c
-
-/2nd Semester/
-   └── Databases/
-         └── 2025-06-10/
-                └── queries.sql
+/1º Semestre/
+└── Lógica de Programação/
+└── MM.DD.YYYY exercicio.alg
 ```
 
----
-
-## ▶️ How to run or view the exercises
+## ▶️ How to View and Run the Exercises
 
 ### 🔹 C / Programming Logic
 
-* Built using simple compilers (e.g., GCC).
-* Run via terminal:
+* Developed using basic compilers such as:
 
-  ```bash
-  gcc exercise1.c -o exercise1
-  ./exercise1
-  ```
+  * [Dev C++](https://www.bloodshed.net/)
+  * [Visualg](https://drive.google.com/uc?export=download&id=1ZpscmOjx5-htnCB4iUIF2aH9d2SE26eq)
 
 ### 🔹 Java (Object-Oriented Programming)
 
-* Early exercises use terminal only:
+* Initial exercises were made without an IDE, using only the terminal:
+
+  Navigate to the folder and compile the files using `javac`.
+  Then run the file with the `main` method by accessing the `bin` folder and using the full path:
+
+  Example (Linux):
 
   ```bash
-  javac Exercise.java
-  java Exercise
+  javac -d bin *.java
+  cd bin
+  java bank.Banco
   ```
-* Others may require an IDE like **Eclipse** or **IntelliJ**.
 
-### 🔹 HTML, CSS and JavaScript
+* Later exercises may require an IDE such as **Eclipse** or **NetBeans**.
 
-* Open `.html` files directly in your browser.
+### 🔹 HTML, CSS, and JavaScript
+
+* Simply open the `.html` files directly in your web browser.
 * Embedded JS scripts will run automatically.
 
 ### 🔹 PHP
 
 * Requires a local server like **XAMPP**:
 
-  1. Install and run XAMPP (Apache).
-  2. Copy the files into the `htdocs` folder.
-  3. Access through your browser:
+  1. Install and start XAMPP (Apache).
+  2. Copy the files to the `htdocs` folder.
+  3. Access it in the browser:
 
      ```
-     http://localhost/project-folder
+     http://localhost/folder-name
      ```
 
 ### 🔹 SQL
 
-* `.sql` files with commands to be run on:
+* `.sql` files can be executed using:
 
   * MySQL Workbench
   * PostgreSQL
