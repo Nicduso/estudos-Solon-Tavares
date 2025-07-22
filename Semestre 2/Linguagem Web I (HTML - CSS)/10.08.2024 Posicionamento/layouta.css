@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 60px;
+    width: 100%;
+    background-color: #000000;
+    float: left;
+    line-height: 10px;
+}
+
+#menu {
+    height: 60px;
+    width: 100%;
+    background-color: #6e1e1e;
+    float: left;
+    line-height: 10px;
+}
+
+#content {
+    height: 400px;
+    width: 100%;
+    background-color: #474747;
+    float: left;
+    line-height: 350px;
+}
+
+#rodape {
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    float: left;
+    line-height: 10px;
+}

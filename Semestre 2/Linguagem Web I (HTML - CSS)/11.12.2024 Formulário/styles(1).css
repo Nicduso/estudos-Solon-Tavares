@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    margin: 0 auto;
+    width: 750px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#lab {
+    width: 150px;
+    float: left;
+}
+
+#formulario {
+    width: 600px;
+    float: left;
+}
+
+#ident {
+    width: 150px;
+}
+
+#cpf {
+    width: 600px;
+}
+
+.doc {
+    width: 200px;
+}
+
+.large {
+    width: 600px;
+}
+
+form {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,18 @@
+body {
+    background-image: 
+        url("Imagens/logoCSS.png"),
+        url("Imagens/logoHTML.png"),
+        url("Imagens/SuperTV.png"),
+        url("Imagens/circulo.png");
+    background-repeat: 
+        no-repeat,
+        repeat-x,
+        repeat-y,
+        repeat;
+    background-position: 
+        right 120px,
+        center,
+        50% 50%,
+        75% 75%;
+    /*background-attachment: fixed;*/
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Ficha Cadastral</h2>
+        <form action="">
+            <div id="lab">
+                <label>Nome:</label><br>
+                <label>RG:</label><br>
+                <label>Endereço:</label><br>
+                <label>Sexo:</label><br>
+                <label>Data de Nascimento:</label><br>
+                <label>Situação Civil:</label>
+            </div>
+            <div id="formulario">
+                <input type="text" class="large"><br>
+                <div id="cpf">
+                    <input type="text" class="doc">
+                    <label id="ident">C.P.F.:</label>
+                    <input type="text" class="doc"><br>
+                </div>
+                <input type="text" class="large"><br>
+                <select name="" id="">
+                    <option value="01">Masculino</option>
+                    <option value="02">Feminino</option>
+                </select>
+                <input type="date"><br>
+                <input type="radio" name="civil">Solteiro(a)
+                <input type="radio" name="civil">Casado(a)
+                <input type="radio" name="civil">Viúvo(a)
+            </div>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar Dados">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 640px;
+    margin: 0 auto;
+}
+
+input {
+    width: 640px;
+    height: 30px;
+}
+
+label, p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+#coment {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: 2px outset #549eff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 640px;
+    height: 200px;
+    display: block;
+    resize: none;
+}
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 04</title>
+    <link rel="stylesheet" href="universidade.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <p>SISTEMA DE GESTÃO ACADÊMICA</p>
+        </div>
+        <div id="form">
+            <h1>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h1>
+            <form action="">
+                <label for="">Login</label>
+                <input type="text"><br>
+                <label for="">Senha</label>
+                <input type="password"><br>
+                <label for="">Status</label>
+                <select name="" id="">
+                    <option value="">Ativo</option>
+                    <option value="">Inativo</option>
+                </select> <br>
+                <label for="">Tipo</label>
+                <input class="radio" type="radio" name="type">Técnico
+                <input class="radio" type="radio" name="type">Professor
+                <input class="radio" type="radio" name="type">Aluno 
+                <label for="">Data de Criação</label>
+                <input type="date"> 
+                <label for="">Perfil</label>
+                <input class="radio" type="radio" name="perfil">Convidado
+                <input class="radio" type="radio" name="perfil">Administrador 
+                <label id="obs">Observações</label>
+                <textarea name="" id=""></textarea> 
+                <label id="mod">Módulos</label>
+                <div id="checkbox">
+                    <input class="checkbox" type="checkbox" name="mod">Compras
+                    <input class="checkbox" type="checkbox" name="mod">Biblioteca
+                    <input class="checkbox" type="checkbox" name="mod">Acadêmico
+                    <input class="checkbox" type="checkbox" name="mod">Documentação
+                    <input class="checkbox" type="checkbox" name="mod">Recursos Humanos
+                </div>
+                <div id="button">
+                    <input class="button" type="submit" value="Cadastrar">
+                    <input class="button" type="reset" value="Excluir">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

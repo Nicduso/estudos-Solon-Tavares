@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    width: 600px;
+    height: 36px;
+    background-color: #c08f25;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    font-size: 16px;
+    padding: 10px 0 0 10px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+#form {
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    width: 200px;
+    margin: 5px 5px 5px 0;
+    
+}
+
+#obs {
+    height: 100px;
+    padding-top: 36px;
+    float: left;
+}
+
+#mod {
+    height: 50px;
+    padding-top: 16px;
+    float: left;
+}
+
+input, select {
+    width: 250px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+    margin: 5px 0 5px 0;
+}
+
+.radio {
+    width: 20px;
+}
+
+#checkbox {
+    width: 350px;
+    height: 50px;
+    float: left;
+    padding: 10px 0 0 5px;
+}
+
+.checkbox {
+    width: 20px;
+}
+
+#button {
+    width: 600px;
+    height: 40px;
+    float: left;
+
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    margin: 10px 0 0 5px;
+    cursor: pointer;
+    border: 1px outset #c08f25;
+    border-radius: 6px;
+}
